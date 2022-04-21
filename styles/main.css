@@ -1,0 +1,35 @@
+.paragraphs {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Akshar', sans-serif;}
+
+body {
+  background-color: salmon;
+}
+.headers {
+  font-size: 50px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Akshar', sans-serif;
+}
+.navbar-style{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Akshar', sans-serif;
+}
+.sprint-list{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Akshar', sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer{
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Akshar', sans-serif;
+  position: static;
+} 
