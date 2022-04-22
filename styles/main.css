@@ -1,8 +1,13 @@
 .paragraphs {
   font-size: 20px;
   text-align: center;
-  font-family: 'Akshar', sans-serif;}
-
+  font-family: 'Akshar', sans-serif;
+}
+.paragraphs-side {
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Akshar', sans-serif;
+}
 body {
   background-color: salmon;
 }
@@ -10,6 +15,12 @@ body {
   font-size: 50px;
   color: whitesmoke;
   text-align: center;
+  font-family: 'Akshar', sans-serif;
+}
+.headers-side {
+  font-size: 50px;
+  color: whitesmoke;
+  text-align: left;
   font-family: 'Akshar', sans-serif;
 }
 .navbar-style{
