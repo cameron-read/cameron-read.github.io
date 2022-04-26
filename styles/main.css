@@ -9,7 +9,11 @@
   font-family: 'Akshar', sans-serif;
 }
 body {
-  background-color: salmon;
+  background-color: lightcoral;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .headers {
   font-size: 50px;
@@ -28,9 +32,9 @@ body {
   text-align: center;
   font-family: 'Akshar', sans-serif;
 }
-.sprint-list{
+.sprint-list-left{
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   font-family: 'Akshar', sans-serif;
 }
 .center {
