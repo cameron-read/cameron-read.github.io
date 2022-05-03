@@ -1,141 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/main.css">
-  <title>Cameron Read</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<link href="../styles/main.css" rel="stylesheet">
+		<title>
+			Cameron Read
+		</title>
+		<link href="https://fonts.googleapis.com" rel="preconnect">
+		<link href="https://fonts.gstatic.com" rel="preconnect">
+		<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel=
+		"stylesheet">
+	</head>
+	<body>
+		<h1 class="headers-side">
+			EDA Sprint 3-TECH-JS Fundamentals
+		</h1>
 
-<body>
+		<h2 class="headers-side">
+			What is Javascript?
+		</h2>
 
+		<p class="paragraphs-side">
+			Javascript is a coding language that allows programmers to drastically change the content of a
+			web page, such as controlling media elements. It works with CSS and HTML to improve on their
+			base functionality, implementing things that these two tools cannot achieve alone. Think of it
+			like baking a birthday cake with the finished cake being your web page. You need ingredients for
+			the actual cake (HTML), then you are going to want icing to finish the cake and make it look
+			good (CSS) but what is cake without candles, sparklers and glitter? That’s where Javavscript
+			comes in.
+		</p>
 
+		<h3 class="headers-side">
+			[arrays] and {objects}
+		</h3>
 
-  <h1 class="headers-side"> EDA Sprint 3-TECH- JS Fundamentals </h1>
+		<p class="paragraphs-side">
+			When thinking how the different elements come together to make a birthday cake it is always good
+			practice to have your method organised, the same goes for all the elements that go into making a
+			web page. This is where arrays come into play, they can be used to access objects as you need
+			them, like would when making a birthday and the objects are your ingredients. Arrays will look
+			something like this:
+		</p>
+		<img class="center" src="../arrays-and-objects-1.jpg"> 
 
-  <h2 class="headers-side"> What is Javascript? </h2>
+		<p class="paragraphs-side">
+			When you want to access or retrieve specific information within an array you need to access its
+			index, these are always organised in numerical order from left to right within the array.
+			Objects within an array always start counting their position within the array from ‘0’. In the
+			example above the object ‘pickCake’ is in position ‘0’ and the last object ‘bakeIngredients’ is
+			in position ‘3’. Therefore to access the objects within the array you need to reference there
+			position within the array, like so:
+		</p>
+		<img class="center" src="../arrays-and-objects-2.jpg"> 
+		<p class="paragraphs-side">
+			This would access the object ‘bakeIngredients’.
+		</p>
 
-    <p class="paragraphs-side"> 
-    Javascript is a coding language that allows programmers to drastically change the content of a web page, such as controlling media elements. It works with CSS and HTML to improve on their base functionality, implementing things that these two tools cannot achieve alone.
-    Think of it like baking a birthday cake with the finished cake being your web page. You need ingredients for the actual cake (HTML), then you are going to want icing to finish the cake and make it look good (CSS) but what is cake without candles, sparklers and glitter? That’s where Javavscript comes in.
-    </p>
-  
-  <h3 class="headers-side"> [arrays] and {objects} </h3>
-  
-  <p class="paragraphs-side">
+		<h4 class="headers-side">
+			Functions
+		</h4>
 
-    When thinking  how the  different elements come together to make a birthday cake it is always good practice to have your method organised, the same goes for all the elements that go into making a web page.
-    This is where arrays come into play, they can be used to access objects as you need them, like would when making a birthday and the objects are your ingredients.
-    Arrays will look something like this:
-  </p>
-  
-  <img src="../arrays-and-objects-1.jpg" class="center">
-  
-  <!-- let makeCake = [‘pickCake’, ‘organiseIngredients’, ‘mixIngredients’, ‘bakeIngredients’] -->
+		<p class="paragraphs-side">
+			Functions are a set grouping of statements that perform certain tasks. This in many cases takes
+			an input and returns an output. Returning to the cake analogy. We can use the mixing the
+			ingredients and baking of the cake itself as parameters
+		</p>
+		<img class="center" src="../functions.jpg"> 
 
-  <p class="paragraphs-side"> 
-    When you want to access  or retrieve specific information within an array you need to access its index, these are always organised in numerical order from left to right within the array.
-    Objects within an array always start counting their position within the array from ‘0’.
-    In the example above the object ‘pickCake’ is in position ‘0’ and the last object ‘bakeIngredients’ is in position ‘3’.
-    Therefore to access the objects within the array you need to reference there position within the array, like so:
-  </p>
-  
-  <img src="../arrays-and-objects-2.jpg" class="center">
+		<p class="paragraphs-side">
+			You are not limited to set parameters with the function you can add or omit information to get
+			your desired result.
+		</p>
 
-  <!-- makeCake[3] -->
+		<h5 class="headers-side">
+			Control flow
+		</h5>
 
-  
-  <p class="paragraphs-side">
-    This would access the object ‘bakeIngredients’.
-  </p>
+		<p class="paragraphs-side">
+			When we start making the birthday cake, executing the method in the correct order is imperative.
+			You can't bake it without mixing the ingredients first. Same goes for a web page. That is why we
+			need to control flow, to have the code be executed in the correct order. There are many ways to
+			do this here are a few.
+		</p>
 
-  <h4 class="headers-side"> Functions </h4>
-  
-  <p class="paragraphs-side"> 
-    Functions are a set grouping of statements that perform certain tasks.
-    This in many cases takes an input and returns an output.
-    Returning to the cake analogy.
-    We can use the mixing the ingredients and baking of the cake itself as parameters  
-  </p>
-  
-  <img src="../functions.jpg" class="center">
+		<h6 class="headers-side">
+			Conditionals
+		</h6>
 
-  <!-- //—declare function—//
+		<p class="paragraphs-side">
+			Conditionals such as ‘if’ and ‘else statements allow you to confirm whether or not a particular
+			condition has been met. Here is an example that will check for if we have enough flour to bake
+			our cake.
+		</p>
+		<img class="center" src="../conditionals.jpg"> 
 
-  function makeCake (‘mixIngredients’, ‘bakeIngredients’)
-  
-  let cake = mixIngredients + bakeIngredients;
-  
-  //—call function—//
-  
-  makeCake(‘mixIngredients’,‘bakeIngredients’)
-   -->
+		<h6 class="headers-side">
+			loops
+		</h6>
 
-   <p class="paragraphs-side"> 
-    You are not limited to set parameters with the function you can add or omit information to get your desired result.
-  </p>
-  
+		<p class="paragraphs-side">
+			Loops keep going until a condition becomes false, or they can just keep on going. For example a
+			loop could be used to work out the amount of candles we need for our birthday cake. Like so:
+		</p>
+		<img class="center" src="../loops.jpg"> 
 
-  <h5 class="headers-side"> Control flow </h5>
-  
-  <p class="paragraphs-side"> 
-  When we start making the birthday cake, executing the method in the correct order is imperative. You can't bake it without mixing the ingredients first. Same goes for a web page. That is why we need to control flow, to have the code be executed in the correct order.
-  There are many ways to do this here are a few.
-  </p>
+		<h6 class="headers-side">
+			The DOM
+		</h6>
 
-  <h6 class="headers-side"> Conditionals </h6>
- 
-  <p class="paragraphs-side">
-    Conditionals such as ‘if’ and ‘else statements allow you to confirm whether or not a particular condition has been met. Here is an example that will check for if we have enough flour to bake our cake.
-  </p>
+		<p class="paragraphs-side">
+			So now to the DOM or (document object model). The DOM is an API that connects all the elements
+			of a web page together, the HTML, CSS and Javascript. This does this by showing the document as
+			a collection of nodes and objects, this allows all the programming languages to access and
+			interrelate with the page. In addition it can be modified and edited just like the CSS and HTML
+			using for example Javascript language. Think of “The DOM” being displayed like a tree that gives
+			you access to all the elements of your page. Using the aforementioned Javascript language within
+			“The DOM” allows you to modify any and all elements within your document. Super neet. See
+			diagram below for a visual representation of the “The DOM” tree.
+		</p>
+		<img class="center" src="../dom%20tree.png">
+		
+    <p></p>
 
-  <img src="../conditionals.jpg" class="center">
-
-<!-- //—conditionals—//
-let flourAmount = 100
-if (flourAmount  > = 10){
-console .log( “continue with baking cake’)
-} else if (flourAmount > 0){
-console.log(“flour stock low, order more flour”)
-}else{
-console(“flour out of stock”)
-} -->
-
-<h6 class="headers-side"> loops </h6>
- 
-<p class="paragraphs-side">
-  Loops keep going until a condition becomes false, or they can just keep on going. For example a loop could be used to work out the amount of candles we need for our birthday cake. Like so:
-</p>
-
-<img src="../loops.jpg" class="center">
-
-<!-- let numberOfCandles = 7
-for (let candles= 0; candles <= numberOfCandles; candle++){
- console.log('Place ' + candle+ ' candlle)
-} -->
-
-<h6 class="headers-side"> The DOM </h6>
-
-<p class="paragraphs-side">
-So now to the DOM or (document object model). The DOM is an API that connects all the elements of a web page together, the HTML, CSS and Javascript.
-This does this by showing the document as a collection of nodes and objects, this allows all the programming languages to access and interrelate with the page. In addition it can be modified and edited just like the CSS and HTML using for example Javascript language.
-Think of “The DOM” being displayed like a tree that gives you access to all the elements of your page.
-Using the aforementioned Javascript language within “The DOM” allows you to modify any and all elements within your document. Super neet.
-See diagram below for a visual representation of the “The DOM” tree.
-</p>
-
-<img src="../dom tree.png" class="center">
-
-<p></p>
-
-<footer class="footer">
-  copyright cameron read 2022
-  </footer>
-
-</body>
-
+		<footer class="footer">
+			copyright cameron read 2022
+		</footer>
+	</body>
 </html>

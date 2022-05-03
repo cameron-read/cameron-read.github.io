@@ -1,50 +1,50 @@
 .paragraphs {
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Akshar', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Akshar', sans-serif;
 }
 .paragraphs-side {
-  font-size: 20px;
-  text-align: left;
-  font-family: 'Akshar', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Akshar', sans-serif;
 }
 body {
-  background-color: lightcoral;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+	background-color: lightcoral;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 .headers {
-  font-size: 50px;
-  color: powderblue;
-  text-align: center;
-  font-family: 'Akshar', sans-serif;
+	font-size: 50px;
+	color: powderblue;
+	text-align: center;
+	font-family: 'Akshar', sans-serif;
 }
 .headers-side {
-  font-size: 50px;
-  color: powderblue;
-  text-align: left;
-  font-family: 'Akshar', sans-serif;
+	font-size: 50px;
+	color: powderblue;
+	text-align: left;
+	font-family: 'Akshar', sans-serif;
 }
-.navbar-style{
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Akshar', sans-serif;
+.navbar-style {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Akshar', sans-serif;
 }
-.sprint-list-left{
-  font-size: 30px;
-  text-align: left;
-  font-family: 'Akshar', sans-serif;
+.sprint-list-left {
+	font-size: 30px;
+	text-align: left;
+	font-family: 'Akshar', sans-serif;
 }
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-.footer{
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Akshar', sans-serif;
-  position: static;
-} 
+.footer {
+	font-size: 10px;
+	text-align: center;
+	font-family: 'Akshar', sans-serif;
+	position: static;
+}
